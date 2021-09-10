@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Test";
+}
+
+<h1>Test Page</h1>
+
+@if (true)
+ {
+    <div>Hello, World!</div>
+    <div>@DateTime.Now</div>
+}
+else
+{
+   <p>Not True</p>
+}
+
+
+@for (int x = 0; x < 11; x++)
+{
+    <h2>@x</h2>
+}
